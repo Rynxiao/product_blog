@@ -1,0 +1,38 @@
+@import url('./theme.less');
+@import url('./ob.less');
+
+/* page style */
+html, body {
+	height: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/* tools style */
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover,a:visited {
+	text-decoration: none;
+}
+
+.absolute-center(@top:0) {
+	position: absolute;
+	top: @top;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	   -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	     -o-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+
+#blog {
+	padding-top: 51px;
+	@import "./home.less";
+	@import "./article.less";
+	@import "./about.less";
+  	@import "./footer.less";
+}

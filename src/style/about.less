@@ -1,0 +1,112 @@
+/*
+  about.less 主页样式预编译代码
+*/
+// About
+.about {
+  background-image: -webkit-gradient(linear, 0 100%,100% 0,
+  color-stop(.25,#333), color-stop(.25,transparent),
+  color-stop(.75,transparent), color-stop(.75,#333)),
+  -webkit-gradient(linear, 0 100%,100% 0,
+          color-stop(.25,#333), color-stop(.25,transparent),
+          color-stop(.75,transparent), color-stop(.75,#333));
+  background-position: 0 0, 1px 1px;
+  background-color: #222;
+  background-size: 3px 3px;
+  font-family: "MicroSoft YaHei", Georgia, "MS Sans Serif", Geneva, sans-serif;
+  .portrait {
+
+    padding-top: 40px;
+  }
+  .hobby {
+    padding: 20px 0 0 15px;
+  }
+  .brief {
+    .brief-normal {
+      height: 319px;
+      margin-top: 30px;
+      overflow: hidden;
+      position: relative;
+      &>h4 {
+        padding-left: 15px;
+      }
+      .brief-row {
+        position: absolute;
+        top : 39px;
+        left: 0;
+        margin-bottom: 20px;
+        padding: 10px 0;
+        background: rgba(56, 56, 56, 0.84);
+        -webkit-transition: all .25s ease-in-out;
+        -moz-transition: all .25s ease-in-out;
+        -ms-transition: all .25s ease-in-out;
+        -o-transition: all .25s ease-in-out;
+        transition: all .25s ease-in-out;
+      }
+    }
+    .literature > div {
+        width: 100%;
+    }
+    .literature {
+      .literature-1 {
+        opacity : 1;
+      }
+      .literature-2 {
+        opacity : 0;
+      }
+    }
+  }
+  .backToTop {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    position: fixed;
+    right: 5px;
+    bottom: 150px;
+    background-color: #999;
+    a {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      color: #fff;
+      .glyphicon {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+        // padding: 7px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 1;
+        -webkit-transition: opacity .25s linear;
+        -moz-transition: opacity .25s linear;
+        -ms-transition: opacity .25s linear;
+        -o-transition: opacity .25s linear;
+        transition: opacity .25s linear;
+      }
+      .toTop {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        // font-weight: bold;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        -webkit-transition: opacity .25s linear;
+        -moz-transition: opacity .25s linear;
+        -ms-transition: opacity .25s linear;
+        -o-transition: opacity .25s linear;
+        transition: opacity .25s linear;
+      }
+      &:hover {
+        .glyphicon {
+          opacity: 0;
+        }
+        .toTop {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "0.1.0",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ryn",
+    "blog"
+  ],
+  "author": "ryn",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel": "^6.3.13",
+    "babel-loader": "^5.3.2",
+    "classie": "^1.0.0",
+    "css-loader": "^0.23.0",
+    "exports-loader": "^0.6.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "flickity": "^1.1.2",
+    "get-style-property": "^0.1.1",
+    "gulp": "^3.9.0",
+    "gulp-run-sequence": "^0.3.2",
+    "gulp-uglify": "^1.5.3",
+    "history": "^1.13.1",
+    "imports": "^1.0.0",
+    "imports-loader": "^0.6.5",
+    "jquery": "^2.1.4",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.2",
+    "lodash": "^3.10.1",
+    "matches-selector": "^1.0.0",
+    "modernizr": "^3.0.0",
+    "moment": "^2.10.6",
+    "normalize.css": "^3.0.3",
+    "react": "^0.13.3",
+    "react-router": "^0.13.4",
+    "smoothscroll": "^0.2.2",
+    "style-loader": "^0.13.0",
+    "unipointer": "^1.1.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9"
+  }
+}
